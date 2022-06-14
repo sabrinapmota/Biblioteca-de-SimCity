@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LivroCadastradoActivity">
+
+    <TextView
+        android:id="@+id/tvLivroDisponivel"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Livro disponível"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvLivroRetirado"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Livro retirado"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Título do livro:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/tvNomedoautor"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Nome do autor:"
+        app:layout_constraintTop_toBottomOf="@id/tvTitulo"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvQuantidadePaginas"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Quantidade de páginas:"
+        app:layout_constraintTop_toBottomOf="@id/tvNomedoautor"
+        app:layout_constraintStart_toStartOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

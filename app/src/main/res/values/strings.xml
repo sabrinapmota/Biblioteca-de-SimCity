@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BibliotecadeSimCity</string>
+    <string name="Descrição">Esse é o nosso aplicativo de cadastro de livros, aqui vamos cadastrar as informações dos livros do acervo da biblioteca.</string>
+</resources>
